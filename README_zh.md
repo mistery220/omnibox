@@ -1,9 +1,5 @@
 # 小黑 - OmniBox
 
-[![omnibox-web](https://img.shields.io/github/v/release/import-ai/omnibox-web?color=brightgreen&label=Web&sort=semver)](https://github.com/import-ai/omnibox-web/releases)
-[![omnibox-backend](https://img.shields.io/github/v/release/import-ai/omnibox-backend?color=blue&label=Backend&sort=semver)](https://github.com/import-ai/omnibox-backend/releases)
-[![omnibox-wizard](https://img.shields.io/github/v/release/import-ai/omnibox-wizard?color=orange&label=Wizard&sort=semver)](https://github.com/import-ai/omnibox-wizard/releases)
-[![omnibox-browser-extension](https://img.shields.io/github/v/release/import-ai/omnibox-browser-extension?color=yellow&label=Browser%20Extension&sort=semver)](https://github.com/import-ai/omnibox-browser-extension/releases)
 
 [English](./README.md) | 简体中文
 
@@ -108,7 +104,7 @@
 ### 部署
 
 ```shell
-git clone https://github.com/import-ai/omnibox.git
+git clone https://github.com/mistery220/omnibox.git
 cd omnibox
 cp example.env .env
 bash scripts/compose.yaml up -d
@@ -117,7 +113,7 @@ bash scripts/compose.yaml up -d
 ### 本地开发
 
 ```shell
-git clone --recurse-submodules https://github.com/import-ai/omnibox.git
+git clone --recurse-submodules https://github.com/mistery220/omnibox.git
 cd omnibox
 cp example.env .env
 bash scripts/dev.yaml up -d --build

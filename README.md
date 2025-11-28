@@ -1,9 +1,5 @@
 # OmniBox - 小黑
 
-[![omnibox-web](https://img.shields.io/github/v/release/import-ai/omnibox-web?color=brightgreen&label=Web&sort=semver)](https://github.com/import-ai/omnibox-web/releases)
-[![omnibox-backend](https://img.shields.io/github/v/release/import-ai/omnibox-backend?color=blue&label=Backend&sort=semver)](https://github.com/import-ai/omnibox-backend/releases)
-[![omnibox-wizard](https://img.shields.io/github/v/release/import-ai/omnibox-wizard?color=orange&label=Wizard&sort=semver)](https://github.com/import-ai/omnibox-wizard/releases)
-[![omnibox-browser-extension](https://img.shields.io/github/v/release/import-ai/omnibox-browser-extension?color=yellow&label=Browser%20Extension&sort=semver)](https://github.com/import-ai/omnibox-browser-extension/releases)
 
 English | [简体中文](./README_zh.md)
 
@@ -106,7 +102,7 @@ Welcome to our online service: [omnibox.pro](https://www.omnibox.pro/?utm_source
 ### Deployment
 
 ```shell
-GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/import-ai/omnibox.git
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/mistery220/omnibox.git
 cd omnibox
 cp example.env .env
 bash scripts/compose.sh up -d
@@ -115,7 +111,7 @@ bash scripts/compose.sh up -d
 ### Local Development
 
 ```shell
-git clone --recurse-submodules https://github.com/import-ai/omnibox.git
+git clone --recurse-submodules https://github.com/mistery220/omnibox.git
 cd omnibox
 cp example.env .env
 bash scripts/dev.sh up -d --build

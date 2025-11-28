@@ -1,8 +1,10 @@
 .env
-.vscode
 .idea
 .DS_Store
 compose.override.yaml
 compose.tmp.yaml
 tmp.yaml
 data
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
